@@ -31,6 +31,7 @@
     margin-bottom: 2px;
 }
 
+
 .contenedor-presentacion{
     margin-left: -8px;
 }
@@ -76,7 +77,9 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-
+    margin-left: -8px;
+    margin-right: -8px;
+    border-bottom: 1px solid;
 }
 .contenedor-opciones button{
     background-color: rgb(7, 143, 48); 
@@ -89,10 +92,6 @@
     padding-right: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
-}
-
-.contenedor-platos{
-    border-top: 1px solid;    
 }
 
 .contenedor-plato{
