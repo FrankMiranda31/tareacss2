@@ -31,4 +31,44 @@
     margin-bottom: 2px;
 }
 
+.contenedor-presentacion{
+    margin-left: -8px;
+    
 
+}
+
+
+.contenedor-presentacion img{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid;
+   
+}
+
+.contenedor-presentacion h1{
+    color: rgb(230, 235, 231);  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+.contenedor-presentacion h2{
+    color: rgb(230, 235, 231);  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 75px;
+    padding-left: 15px;
+}
+.contenedor-presentacion button{
+    background-color: rgb(7, 143, 48); 
+    color: rgb(230, 235, 231); 
+    margin-left: 15px;
+    border: 0;
+    border-radius: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
