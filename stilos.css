@@ -6,30 +6,22 @@
 
 }
 
-.tituloa{
-    color: rgb(212, 216, 0);  
+.tituloc{
     font-family: fantasy;       
     font-size: 30px;
     font-weight: bold;
-}
-.titulog{
-    color: rgb(7, 143, 48);  
-    font-family: fantasy;
-    font-size: 30px;
-    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
 
 .login{
     padding-top: 5px;
-}
-
-.contenedor-cabecera p{
-    color: rgb(7, 143, 48);  
+    color: rgb(7, 143, 48); 
     font-family: fantasy;
-    font-size: 15px;
     margin-top: 5px;
     margin-bottom: 2px;
 }
+
 
 
 .contenedor-presentacion{
@@ -120,4 +112,20 @@
     padding-bottom: 5px;
     padding-left: 15px; 
     padding-right: 15px; 
+}
+.titulo-login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 25px;
+    padding-left: 15%; 
+    padding-right: 15%;
+    padding-bottom: 25px;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.green{
+    color: rgb(7, 143, 48);  
+}
+.yellow{
+    color: rgb(212, 216, 0);
 }
