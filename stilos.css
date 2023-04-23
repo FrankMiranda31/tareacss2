@@ -72,3 +72,24 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.contenedor-opciones{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-bottom: 1px solid;
+}
+.contenedor-opciones button{
+    background-color: rgb(7, 143, 48); 
+    color: rgb(230, 235, 231);    
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 17px;
+    border: 0;
+    border-radius: 10%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
