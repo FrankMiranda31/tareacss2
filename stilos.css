@@ -129,3 +129,68 @@
 .yellow{
     color: rgb(212, 216, 0);
 }
+
+.login-form{
+    margin: 0 auto;
+    align-content: center;
+    border-radius: 10px;
+    width: 500px
+}
+
+
+.cont-login{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+    background-color:rgb(7, 143, 48);
+    border-radius: 5%; 
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+
+.cont-login input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5%;
+    border-style: none;
+  
+}
+.cont-login p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(230, 235, 231); 
+}
+
+.btn-login{
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 45%;
+        margin-right: 45%;
+
+}
+.btn-login button{
+    background-color: rgb(212, 216, 0);
+    color: rgb(7, 143, 48);;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom:6px;
+    border-radius: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border-style: hidden;
+}
+.form-text{
+    margin-top: 50px;
+    color: rgb(212, 216, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
