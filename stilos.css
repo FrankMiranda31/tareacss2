@@ -204,7 +204,7 @@
 
 .btn-cuenta button{
     background-color: rgb(212, 216, 0);
-    color: rgb(7, 143, 48);;
+    color: rgb(7, 143, 48);
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 6px;
@@ -225,12 +225,13 @@
 
 }
 .mesa{
-    background-color: rgb(212, 216, 0);
+    border:1px solid yellow;
     border-radius: 50%;
     padding-top: 55px;
     padding-bottom:55px;
     padding-left: 55px;
     padding-right: 55px;
+    color: rgb(7, 143, 48);
     
 
 }
@@ -239,4 +240,49 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+}
+
+.registro-login{
+    margin: 0 auto;
+    align-content: center;
+    border-radius: 10px;
+    width: 500px
+    
+}
+
+.reg-login{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+    color: rgb(7, 143, 48);
+    border-radius: 5%; 
+    justify-content: right;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.btn-reg button{
+    background-color:rgb(7, 143, 48) ;
+    color: rgb(212, 216, 0);
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 6px;
+    padding-bottom:6px;
+    border-radius: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border-style: hidden;
+}
+
+.btn-reg{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
 }
